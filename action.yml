@@ -5,4 +5,5 @@ on:
   push:         # <- Déclenché lorsque l'on pousse du code...
     branches:
       - master  # <- ... mais seulement sur la branche "master"
-    folder: FLAPPY_CLONE
+    folder: FLAPPY_CLONE/game.js
+    
