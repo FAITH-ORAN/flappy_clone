@@ -6,4 +6,7 @@ on:
     branches:
       - master  # <- ... mais seulement sur la branche "master"
     folder: FLAPPY_CLONE/game.js
-    
+
+ - name: "Install bootstrap dependencies"
+        run: |
+          npm install bootstrap
